@@ -12,38 +12,41 @@
         android:id="@+id/bar_red"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="50dp"
+        android:layout_marginTop="30dp"
         android:max="255"
         android:thumbTint="@color/red"
+        android:progressTint="@color/red"
         android:progress="0" />
 
     <SeekBar
         android:id="@+id/bar_green"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="50dp"
+        android:layout_marginTop="30dp"
         android:max="255"
+        android:progress="0"
         android:thumbTint="@color/green"
-        android:progress="0" />
+        android:progressTint="@color/green"/>
+
 
     <SeekBar
         android:id="@+id/bar_blue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="50dp"
-        android:baselineAligned="false"
+        android:layout_marginTop="30dp"
         android:max="255"
-        android:thumbTint="@color/blue"
+        android:progress="0"
+        android:progressTint="@color/blue"
         android:theme="@style/CardView.Dark"
-        android:progress="0" />
-
+        android:thumbTint="@color/blue" />
 
     <TextView
         android:id="@+id/text_view"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="mind1:D"
+        android:layout_height="200dp"
+        android:text="(255,255,255)"
         android:textAlignment="center"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
